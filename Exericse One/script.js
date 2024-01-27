@@ -14,3 +14,13 @@ const ul = document.getElementById("emptyList");
 ul.innerHTML = "<li>HTML</li>";
 ul.innerHTML += "<li>CSS</li>";
 ul.innerHTML += "<li>JavaScript</li>"
+
+// Exerice 1.4
+// Changes Color And Font On Exericse 1.2
+p.style.color = "red";
+p.style.fontWeight = "bold";
+// Note that the CSS property `font-weight` is written in camelCase here: `fontWeight`.
+
+// Exerise 1.4 b
+ul.style.color = "blue";
+ul.style.fontWeight = "italic";
