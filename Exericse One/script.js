@@ -26,5 +26,13 @@ p.style.fontWeight = "bold";
 ul.style.color = "blue";
 ul.style.fontWeight = "italic";
 
-//Exerise 1.4 c
+// Exerise 1.4 c
+// Changes The Page Background Color
 document.body.style.backgroundColor = "green";
+
+// Exerise 1.5
+// Caluculates The 7 * 6 And Only Shows The Result
+document.write(7 * 6);
+
+// Exericse 1.5 b
+// It Creates A Button And When You Presh It The Result of 7 * 6 Shows Up On A New page
