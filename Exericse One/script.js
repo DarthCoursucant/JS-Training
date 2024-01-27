@@ -8,7 +8,9 @@ console.log("Exercise One Shit")
 const p = document.getElementById("blankParagraph");
 p.textContent = "DarthCouruscant"
 
-// Exerice 1.3
+// Exerice 1.3 + 1.3b
+// Creates An List
 const ul = document.getElementById("emptyList");
 ul.innerHTML = "<li>HTML</li>";
 ul.innerHTML += "<li>CSS</li>";
+ul.innerHTML += "<li>JavaScript</li>"
