@@ -41,3 +41,22 @@ if (inputName !== "") {
 }
 
 //  Use [prompt()](https://www.w3schools.com/jsref/met_win_prompt.asp) to allow input
+
+// Exverise 3.4
+var myAge = 21;
+if (myAge < 0 || isNaN(Number(myAge))) { // Just an extra check
+//if (myAge < 0) {
+    console.log("That's not possible")
+} else if (myAge < 18) {
+    console.log("You are juvenile");
+} else if (myAge < 30) {
+    console.log("You are still young");
+} else if (myAge < 50) {
+    console.log("You aren't exactly young anymore, are you?");
+} else if (myAge < 70) {
+    console.log("You're getting really old, aren't you?");
+} else if (myAge < 100) {
+    console.log("How is retirement treating you?");
+} else {
+    console.log("Centennial? Impressive...");
+}
