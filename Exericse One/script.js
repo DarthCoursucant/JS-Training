@@ -22,5 +22,9 @@ p.style.fontWeight = "bold";
 // Note that the CSS property `font-weight` is written in camelCase here: `fontWeight`.
 
 // Exerise 1.4 b
+// Changes Color And Font On Exerise 1.3 + b
 ul.style.color = "blue";
 ul.style.fontWeight = "italic";
+
+//Exerise 1.4 c
+document.body.style.backgroundColor = "green";
