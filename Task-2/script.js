@@ -18,3 +18,15 @@ console.log(answer)
 var myBool = "true"
 console.log(myBool)
 // console.log(!myBool); //False
+
+// Exerivce 2.4
+var theText = "Blåbærsyltetøy";
+console.log(theText);
+
+// Exercise 2.5
+// the result is 1912 aka mashes the two values together with caluculating
+var a = "19";
+var b = 23;
+console.log(a + b);
+
+console.log(Number(a) + b);
