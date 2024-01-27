@@ -10,5 +10,5 @@ console.log(firstName + " " + middleName + " " + lastName)
 // Exericse 2.2
 var x = 19;
 var y = 23;
-var sum = x + y
-console.log(sum)
+var answer = x + y;
+console.log(answer)
