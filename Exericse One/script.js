@@ -36,3 +36,14 @@ document.write(7 * 6);
 
 // Exericse 1.5 b
 // It Creates A Button And When You Presh It The Result of 7 * 6 Shows Up On A New page
+
+// Exerise 1.6
+// The moment you open the browser an alert pops up with the sum of 23-19
+// window.alert(23 + 19);
+
+//Exierise 1.6 b
+// The alerts displays an alert which says "website link says: The answer is: 2319" it doesnt sum up 23 + 19 but rather mashes them into one number
+//window.alert("The answer is: " + 23 + 19);
+
+// exerise 1.6 c
+window.alert("The answer is: " + (23 + 19));
