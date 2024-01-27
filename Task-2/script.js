@@ -28,5 +28,14 @@ console.log(theText);
 var a = "19";
 var b = 23;
 console.log(a + b);
-
+//This One makes it calculate the values together withiout chainging the varaibles
 console.log(Number(a) + b);
+
+// Exercise 2.6
+var x = 19, y = 23, z = 10;
+console.log(x + y + z); // 52
+console.log(x + y * z); //249
+console.log ((x + y) * z); //420
+
+// Exercise 2.7 
+console.log("Exercise 2.7" + " " + "The Result Is =" + " " + 7 % 3); //Exercise 2.7" 1
