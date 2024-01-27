@@ -60,3 +60,14 @@ if (myAge < 0 || isNaN(Number(myAge))) { // Just an extra check
 } else {
     console.log("Centennial? Impressive...");
 }
+
+// Excerise 3.5
+var number = prompt("Please, enter a number");
+var test = Number(number);
+if (isNaN(test)) {
+    console.log (number + " is not a number: Not a valid number entered");
+} else {
+    console.log (number + " is indeed a number: Valid number entered");
+}
+
+// Tip: Check the input using [the Number() function](https://www.w3schools.com/jsref/jsref_number.asp) and [the isNaN() function](https://www.w3schools.com/jsref/jsref_isnan.asp).
