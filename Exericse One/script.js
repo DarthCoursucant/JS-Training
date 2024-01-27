@@ -42,8 +42,13 @@ document.write(7 * 6);
 // window.alert(23 + 19);
 
 //Exierise 1.6 b
-// The alerts displays an alert which says "website link says: The answer is: 2319" it doesnt sum up 23 + 19 but rather mashes them into one number
+// The alerts displays an alert which says "The answer is: 2319" it doesnt sum up 23 + 19 but rather mashes them into one number
 //window.alert("The answer is: " + 23 + 19);
 
 // exerise 1.6 c
-window.alert("The answer is: " + (23 + 19));
+// It Adds together the two numbers
+//window.alert("The answer is: " + (23 + 19));
+
+//exericize 1.7
+// Doestn show anything from the HTML code
+document.body.innerHTML = "";
