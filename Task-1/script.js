@@ -51,4 +51,4 @@ document.write(7 * 6);
 
 //exericize 1.7
 // Doestn show anything from the HTML code
-document.body.innerHTML = "";
+//document.body.innerHTML = "";
