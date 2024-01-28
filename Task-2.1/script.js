@@ -33,3 +33,49 @@ console.log (unicode1, unicode2, unicode3); // 230 248 229
 // excierse 2.1.3 c
 console.log ("æ".charCodeAt(0), "ø".charCodeAt(0), "å".charCodeAt(0));
 
+// excirse 2.1.4
+let shout1 = "Shout, shout!";
+let shout2 = "Let it all out.";
+
+// excirse 2.1.4  a
+let concated = shout1.concat(" ", shout2);
+console.log(concated);
+
+// excirse 2.1.4  b
+let stringified = `${shout1} ${shout2}`;
+console.log(stringified);
+
+// excirse 2.1.5 
+const lyrics = `London calling to the faraway towns
+Now war is declared and battle come down
+London calling to the underworld
+Come out of the cupboard, you boys and girls
+London calling now don't look to us
+Phony Beatlemania has bitten the dust
+London calling see we ain't got no swing
+'Cept for the ring of that truncheon thing.`;
+const searchFor = "London calling";
+let first = lyrics.indexOf(searchFor);
+let last = lyrics.lastIndexOf(searchFor);
+console.log("First occurance at index " + first); // 0
+console.log("Last occurance at index " + last); // 229
+
+// excirse 2.1.6
+let sum = 35;
+if (sum % 10 == 0){
+    console.log("a");
+} else if (sum % 2 == 1){
+    if (sum % 5 == 0 && sum % 2 == 0){
+        console.log("b");
+    } else if (sum % 5 == 0){
+        console.log("c");
+    } else {
+        console.log("d");
+}
+} else {
+    console.log("e");
+}
+// sum = 35 gives output 'c'
+// Level 2:
+// (sum % 2 == 1) and (sum % 2 == 0) cannot both be true,
+// thus we cannot reach console.log("b");
