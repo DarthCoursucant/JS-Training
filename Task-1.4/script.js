@@ -32,3 +32,23 @@ let p = 10;
 while (p > 0) {
     console.log(p)
 p--}
+
+// Excerise 1.4.3 a
+for (let i = 1; i <= 10; i++) {
+    if (i === 5) { continue; }
+    console.log(i);
+}
+
+// Excerise 1.4.3 b
+for (let i = 10; i >= 0; i--) {
+    if (i < 2) { break; }
+    console.log(i);
+}
+
+// Excerise 1.4.3 b But With A Loop
+i = 10;
+while (i >= 0) {
+    console.log(i);
+    if (i === 2) { break; } // Break after logging the 2.
+    i--;
+}
