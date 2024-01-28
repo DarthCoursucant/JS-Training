@@ -52,3 +52,77 @@ while (i >= 0) {
     if (i === 2) { break; } // Break after logging the 2.
     i--;
 }
+
+// Excerise 1.4.4 a
+i = 10;
+do {
+    console.log(i);
+    i--;
+} while (i >= 5);
+
+// Excerise 1.4.4 b
+i = 0;
+do {
+    console.log(i);
+    i--;
+} while (i >= 5);
+
+// Excerise 1.4.5
+for (let i = 0; i <= 20; i+=2) {
+    console.log(i);
+}
+
+// Alternative:
+for (let i = 0; i <= 20; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+}
+
+// Excerise 1.4.6
+const catBreeds = ["Abyssinian", "Balinese", "Birman", "Chartreux", "Egyptian Mau", "Maine Coon", "Norwegian Forest Cat", "Ragdoll", "Siamese", "Siberian"];
+for (let cat of catBreeds) {
+    console.log(cat + " is a cat breed.");
+}
+
+// Excerise 1.4.7
+console.log ("Exercise 7 - Level 2");
+let text = "";
+const rows = 5;
+// Outer for = rows
+for (let i = 1; i <= rows; i++) {
+    // Inner for = columns
+    for (let j = 1; j <= i; j++) {
+text += "*"; }
+    text += "\n"; // Add a line break for each row
+}
+console.log (text);
+// What happens if you change the inner loop to
+// for (let j = rows; j >= i; j--)
+
+// Excerise 1.4.8 a + b 
+let fizz, buzz;
+const maxB = 30; // a = 20, b = 30
+let outputB = "";
+for (let i = 1; i <= maxB; i++) {
+    fizz = (i%3 === 0); // fizz is true if i%3 == 0 (i is divisible into 3)
+    buzz = (i%7 === 0); // for b, swap 5 for 7, just here.
+    if (fizz || buzz) {
+if (fizz) {
+            outputB += "Fizz";
+        }
+        if (fizz && buzz) {
+            outputB += " ";
+            // Space between fizz and buzz when both are written
+}
+if (buzz) {
+            outputB += "Buzz";
+        }
+} else {
+        outputB += i; // If neither fizz or buzz, output the number
+    }
+if (i < maxB) {
+        outputB += ", "; // Add comma for all but the last
+    }
+}
+console.log (outputB);
