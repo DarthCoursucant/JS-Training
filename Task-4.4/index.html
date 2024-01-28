@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4.4 Extra exercises</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+<form id="signup">
+    <fieldset>
+        <legend>Sign up for access:</legend>
+        <div>
+            <label for="username">Username:</label><input id="username" name="username" type="text">
+            <span id="usernameMsg"></span>
+        </div>
+        <div>
+            <label for="password">Password:</label><input id="password" name="password" type="text">
+            <span id="passwordMsg"></span>
+        </div>
+        <div>
+            <label for="email">Your e-mail:</label><input id="email" name="email" type="text">
+            <span id="emailMsg"></span>
+        </div>
+        <div>
+            <label for="email2">Repeat e-mail:</label><input id="email2" name="email2" type="text">
+            <span id="email2Msg"></span>
+        </div>
+        <div>
+            <input type="checkbox" name="tc" id="tc"><label for="tc">I agree to T&C</label>
+            <span id="tcMsg"></span>
+        </div>
+        <div id="receive">I'd like to get:</div>
+        <div>
+            <input type="checkbox" name="news" id="news"><label for="news">News</label>
+        </div>
+        <div>
+            <input type="checkbox" name="promos" id="promos"><label for="promos">Promotions</label>
+        </div>
+        <div><span id="receiveMsg"></span></div>
+        <div>
+            <input type="submit" id="submitform" value="Submit">
+            <!-- note: if id="submit" (or name="submit") then the js element.submit() function will not work-->
+        </div>
+    </fieldset>
+</form>
+<p style="font-style: italic;">Note: The password field would normally be of type password, and email of that type, but here all 4 input are of type text for validation demonstration purposes.</p>
+</body>
+</html>
